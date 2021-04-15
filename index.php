@@ -166,8 +166,8 @@
                      <h4><FONT COLOR="black">Fundación GESAREY</FONT></h4>
                      <p style="text-align: justify;">FUNSOGES nace para el año 2010 del corazón de Dios, cuando la Iglesia Evangélica Gesarey se interesa por trabajar en las diferentes necesidades de los sectores rurales y urbanos más vulnerables de nuestra sociedad como lo son la problemática de la drogadicción, la prostitución, alcoholismo, embarazos a temprana edad en jóvenes y preadolescentes, la desnutrición y abandono por la violencia y crisis económica, rechazo familiar y social en la primera infancia y adulto mayor.</p>
                      <div class="button_section">
-                        <a href="acerca.html">Leer mas</a>
-                        <a href="contact.html">Contáctenos</a>
+                        <a href="acerca.php">Leer mas</a>
+                        <a href="contact.php">Contáctenos</a>
                      </div>
                   </div>
                </div>
@@ -214,7 +214,7 @@
                <div class="row margin_top_30">
                   <div class="col-md-12">
                      <div class="button_section full center margin_top_30">
-                        <a style="margin:0;" href="acerca.html">Leer mas</a>
+                        <a style="margin:0;" href="acerca.php">Leer mas</a>
                      </div>
                   </div>
                </div>
