@@ -21,7 +21,7 @@
       <!-- fevicon -->
       <link rel="icon" href="Vista/Img/logo.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="Vista/css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -70,7 +70,7 @@
                                  <a data-toggle="modal" data-target="#sesion" href="#">Acceso</a>
                               </li>
                               <li>
-                                 <a href="#"><img src="images/search_icon.png" alt="#" /></a>
+                                 <a href="#"><img src="Vista/images/search_icon.png" alt="#" /></a>
                               </li>
                            </ul>
                         </nav>
@@ -347,11 +347,11 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-4 col-md-6">
-                  <a href="#"><img src="Vista/Img/logo_footer_1.png" alt="#" /></a>
+                  <a href="#"><img src="Vista/Vista/Img/logo_footer_1.png" alt="#" /></a>
                   <ul class="contact_information">
-                     <li><span><img src="images/location_icon.png" alt="#" /></span><span class="text_cont">Calle 46 e # 13 sur 04 Los Girasoles<br>Barranquilla-Colombia</span></li>
-                     <li><span><img src="images/phone_icon.png" alt="#" /></span><span class="text_cont">324-8561<br>300-870-0118<br>300-850-5134</span></li>
-                     <li><span><img src="images/mail_icon.png" alt="#" /></span><span class="text_cont">funsoges2018@gmail.com<br>funsoges_2007@live.com</span></li>
+                     <li><span><img src="Vista/images/location_icon.png" alt="#" /></span><span class="text_cont">Calle 46 e # 13 sur 04 Los Girasoles<br>Barranquilla-Colombia</span></li>
+                     <li><span><img src="Vista/images/phone_icon.png" alt="#" /></span><span class="text_cont">324-8561<br>300-870-0118<br>300-850-5134</span></li>
+                     <li><span><img src="Vista/images/mail_icon.png" alt="#" /></span><span class="text_cont">funsoges2018@gmail.com<br>funsoges_2007@live.com</span></li>
                   </ul>
                   <ul class="social_icon">
                      <li><a href="https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -378,10 +378,10 @@
                   <div class="footer_links">
                      <h3>Instagram</h3>
                      <ol>
-                        <li><img class="img-responsive" src="images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
                      </ol>
                   </div>
                </div>
