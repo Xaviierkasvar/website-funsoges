@@ -189,7 +189,7 @@
                      <p style="text-align: justify;">FUNSOGES nace para el año 2010 del corazón de Dios, cuando la Iglesia Evangélica Gesarey se interesa por trabajar en las diferentes necesidades de los sectores rurales y urbanos más vulnerables de nuestra sociedad como lo son la problemática de la drogadicción, la prostitución, alcoholismo, embarazos a temprana edad en jóvenes y preadolescentes, la desnutrición y abandono por la violencia y crisis económica, rechazo familiar y social en la primera infancia y adulto mayor.</p>
                      <div class="button_section">
                         <a href="acerca.php">Leer mas</a>
-                        <a href="contact.php">Contáctenos</a>
+                        <a href="#Contactanos">Contáctenos</a>
                      </div>
                   </div>
                </div>
