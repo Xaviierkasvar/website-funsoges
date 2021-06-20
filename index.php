@@ -13,11 +13,11 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="Vista/css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="Vista/css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="Vista/css/responsive.css">
       <!-- fevicon -->
       <link rel="icon" href="Vista/Img/logo.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
@@ -67,7 +67,7 @@
                                  <a href="#Contactanos">Contactanos</a>
                               </li>
                               <li>
-                                 <a href="#">Acceso</a>
+                                 <a data-toggle="modal" data-target="#sesion" href="#">Acceso</a>
                               </li>
                               <li>
                                  <a href="#"><img src="images/search_icon.png" alt="#" /></a>
@@ -82,6 +82,28 @@
          <!-- end header inner -->
       </header>
       <!-- end header -->
+      <!-- Modal -->
+         <div class="modal fade" id="sesion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" style="color: black;" id="exampleModalLabel">Iniciar Sesión</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <?php include "Vista/Login.php"?>
+                 </div>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+      <!-- end Modal -->
       <!-- revolution slider -->
       <div class="banner-slider">
          <div class="container-fluid">
@@ -163,7 +185,7 @@
                <div class="col-md-5">
                   <div class="full slider_cont_section">
                      <h4>Lo mas destacado en</h4>
-                     <h4><FONT COLOR="black">Fundación GESAREY</FONT></h4>
+                     <h4><FONT class="orange_color">Fundación GESAREY</FONT></h4>
                      <p style="text-align: justify;">FUNSOGES nace para el año 2010 del corazón de Dios, cuando la Iglesia Evangélica Gesarey se interesa por trabajar en las diferentes necesidades de los sectores rurales y urbanos más vulnerables de nuestra sociedad como lo son la problemática de la drogadicción, la prostitución, alcoholismo, embarazos a temprana edad en jóvenes y preadolescentes, la desnutrición y abandono por la violencia y crisis económica, rechazo familiar y social en la primera infancia y adulto mayor.</p>
                      <div class="button_section">
                         <a href="acerca.php">Leer mas</a>
@@ -180,9 +202,14 @@
             <div class="section layout_padding">
             <div class="container">
                <div class="row">
-                  <div class="col-md-12">
+                  <div class="col-md-3">
                      <div class="heading">
-                        <h3>Acerca de <span class="orange_color">Nosotros</span></h3>
+                        <h3>Acerca de</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-9">
+                     <div class="heading">
+                        <h3 class="orange_color">Nosotros</h3>
                      </div>
                   </div>
                </div>
@@ -450,14 +477,14 @@
       </div>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
+      <script src="Vista/js/jquery.min.js"></script>
+      <script src="Vista/js/popper.min.js"></script>
+      <script src="Vista/js/bootstrap.bundle.min.js"></script>
+      <script src="Vista/js/jquery-3.0.0.min.js"></script>
+      <script src="Vista/js/plugin.js"></script>
       <!-- Scrollbar Js Files -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="Vista/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="Vista/js/custom.js"></script>
       <div id = "fb-root" > </div> <script async diferir crossorigin = "anonymous" src = "https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce = "BhAnAilu" > </script>
    </body>
 </html>

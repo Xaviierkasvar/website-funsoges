@@ -1,7 +1,7 @@
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6 mx-auto tw">
-          <img src="Vista/img/1.png" class="img-fluid">
+        <div class="col-6 mx-auto center tw">
+          <img src="Vista/Img/1.png" class="img-fluid">
           <form action="Controlador/ValidarInicioSesion.php" method="post">
             <input style="border-radius: 20px;" type="text" placeholder="Usuario" name="usuario" />
             <input style="border-radius: 20px;" type="password" placeholder="Contraseña" name="clave" />

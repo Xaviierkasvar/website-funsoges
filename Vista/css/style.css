@@ -2128,7 +2128,13 @@ ul.social_icon li a {
 .letra_li {
 	
 }
-
+.tw {
+	text-align: center;
+	color: green;
+	font-family:sans-serif; 
+	font-size:20px; 
+	padding-top: 10px;
+}
 
 
 

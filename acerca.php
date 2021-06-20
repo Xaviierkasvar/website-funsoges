@@ -13,11 +13,11 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="Vista/css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="Vista/css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="Vista/css/responsive.css">
       <!-- fevicon -->
       <link rel="icon" href="Vista/Img/logo.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
@@ -52,22 +52,22 @@
                         <nav class="main-menu">
                            <ul class="menu-area-main">
                               <li>
-                                 <a href="index.html">Inicio</a>
+                                 <a href="index.php">Inicio</a>
                               </li>
                               <li class="active">
-                                 <a href="index.html #Acerca">Acerca</a>
+                                 <a href="index.php#Acerca">Acerca</a>
                               </li>
                               <li>
-                                 <a href="index.html #Donaciones">Donaciones</a>
+                                 <a href="index.php#Donaciones">Donaciones</a>
                               </li>
                               <li>
-                                 <a href="index.html #Redes">Resdes Sociales</a>
+                                 <a href="index.php#Redes">Resdes Sociales</a>
                               </li>
                               <li>
-                                 <a href="index.html #Contactanos">Contactanos</a>
+                                 <a href="index.php#Contactanos">Contactanos</a>
                               </li>
                               <li>
-                                 <a href="index.html #">Acceso</a>
+                                 <a data-toggle="modal" data-target="#sesion" href="#">Acceso</a>
                               </li>
                               <li>
                                  <a href="#"><img src="images/search_icon.png" alt="#" /></a>
@@ -83,24 +83,42 @@
       </header>
       <!-- end header -->
      
-      <!-- section --> 
-<div class="About-bg">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="aboutheading">
-               <h3>acerca de <span class="orange_color">nosotros</span></h3>
+      <!-- section -->
+      <!-- Modal -->
+         <div class="modal fade" id="sesion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" style="color: black;" id="exampleModalLabel">Iniciar Sesión</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <?php include "Vista/Login.php"?>
+                 </div>
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+      <!-- end Modal -->
+      <div class="About-bg">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="aboutheading">
+                     <h3>acerca de <span class="orange_color">nosotros</span></h3>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
-   </div>
-</div>
-
-
-
       <div class="section layout_padding">
          <div class="container">
-           
             <div class="row">
                <div class="col-md-6">
                   <img src="Vista/Img/Carrousel/img614.jpg" alt="#" />
@@ -125,7 +143,6 @@
                   </div>
                </div>
             </div>
-
             <div class="row margin_top_30">
                <div class="col-md-6" style="margin-top: 50px;">
                   <img src="Vista/Img/img271.jpg" alt="#" />
@@ -174,15 +191,6 @@
                   </ul>
                </div>
             </div>
-            <div class="row margin_top_30">
-               <div class="col-md-12">
-                  <div class="button_section full center margin_top_30">
-                     <a style="margin:0;" href="about.html">Leer mas</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
       <!-- end section -->
       <!-- section -->
          <div class="row margin_top_30">
@@ -332,6 +340,7 @@
                   </div>
                </div>
             </div>
+         </div>
       <!-- end section -->
       <!-- footer -->
       <footer id="Contactanos">
@@ -416,13 +425,13 @@
       </div>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
+      <script src="Vista/js/jquery.min.js"></script>
+      <script src="Vista/js/popper.min.js"></script>
+      <script src="Vista/js/bootstrap.bundle.min.js"></script>
+      <script src="Vista/js/jquery-3.0.0.min.js"></script>
+      <script src="Vista/js/plugin.js"></script>
       <!-- Scrollbar Js Files -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="Vista/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="Vista/js/custom.js"></script>
    </body>
 </html>
