@@ -42,7 +42,7 @@
                <div class="col-lg-3 logo_section">
                   <div class="full">
                      <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="Vista/Img/logocomp.png" alt="#"></a> </div>
+                        <div class="logo"> <a href="index.php"><img src="Vista/Img/logocomp.png" alt="#"></a> </div>
                      </div>
                   </div>
                </div>
@@ -52,7 +52,7 @@
                         <nav class="main-menu">
                            <ul class="menu-area-main">
                               <li class="active">
-                                 <a href="index.html">Inicio</a>
+                                 <a href="index.php">Inicio</a>
                               </li>
                               <li>
                                  <a href="#Acerca">Acerca</a>
