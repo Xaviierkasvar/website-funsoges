@@ -126,7 +126,7 @@
                <div class="col-md-6">
                   <div class="full blog_cont">
                      <h4>NUESTROS PROYECTOS</h4>
-                     <h5>MAY 14 2019 5 READ</h5>
+                     <h5>ENE 03 2021</h5>
                      <p>FUNSOGES nace para el año 2010 del corazón de Dios, cuando la Iglesia Evangélica Gesarey se interesa por trabajar en las diferentes necesidades de los sectores rurales y urbanos más vulnerables de nuestra sociedad como lo son la problemática de la drogadicción, la prostitución, alcoholismo, embarazos a temprana edad en jóvenes y preadolescentes, la desnutrición y abandono por la violencia y crisis económica, rechazo familiar y social en la primera infancia y adulto mayor.</p>
                   </div>
                </div>
@@ -138,7 +138,7 @@
                <div class="col-md-6">
                   <div class="full blog_cont">
                      <h4>Misión</h4>
-                     <h5>MAY 19 2019  5 READ</h5>
+                     <h5>ENE 03 2021</h5>
                      <p>Trabajar en la Asesoría, gestión, ejecución, y manejo de proyectos comunitarios obteniendo así el bienestar común general de la población La Fundación Social Gesarey es una entidad sin ánimo de lucro “cristiana” que trabaja por el desarrollo y sueños hacia el futuro en la primera infancia, grupos juvenil, madres cabezas de hogar y adulto mayor quienes por sus condiciones de vulnerabilidad necesitan apoyo y cuidados permanentes para lograr aumentar su amor y seguridad en la familia y en la sociedad tomados de la mano de nuestro señor Jesucristo.</p>
                   </div>
                </div>
@@ -150,7 +150,7 @@
                <div class="col-md-6">
                   <div class="full blog_cont">
                      <h4>Visión</h4>
-                     <h5>MAY 14 2019 5 READ</h5>
+                     <h5>ENE 03 2021</h5>
                      <p>Para el año 2.026 ser una Fundación Social Gesarey reconocida a nivel nacional, con sedes en cada ciudad del País y Barrio de escasos recursos del mismo, brindando bienestar común a través de proyectos comunitarios
                      Funsoges será una institución reconocida en el ámbito nacional e internacional como fundación especializada en la atención de Primera infancia, Grupos Juveniles y Adulto mayor mediante la excelencia y compromiso en el servicio y bienestar espiritual, económico y social de nuestra sociedad.</p>
                   </div>
@@ -347,48 +347,39 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-4 col-md-6">
-                  <a href="#"><img src="Vista/Vista/Img/logo_footer_1.png" alt="#" /></a>
+                  <a href="#"><img src="Vista/Img/logo_footer_1.png" alt="#" /></a>
                   <ul class="contact_information">
                      <li><span><img src="Vista/images/location_icon.png" alt="#" /></span><span class="text_cont">Calle 46 e # 13 sur 04 Los Girasoles<br>Barranquilla-Colombia</span></li>
                      <li><span><img src="Vista/images/phone_icon.png" alt="#" /></span><span class="text_cont">324-8561<br>300-870-0118<br>300-850-5134</span></li>
                      <li><span><img src="Vista/images/mail_icon.png" alt="#" /></span><span class="text_cont">funsoges2018@gmail.com<br>funsoges_2007@live.com</span></li>
                   </ul>
-                  <ul class="social_icon">
+               </div>
+               <div class="col-lg-2 col-md-6">
+                  <div class="footer_links">
+                     <h3>Enlace rápido</h3>
+                     <ul class="social_icon">
                      <li><a href="https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                      <li><a href="funsoges2018@gmail.com"><i class="fa fa-google-plus"></i></a></li>
                   </ul>
-               </div>
-               <div class="col-lg-2 col-md-6">
-                  <div class="footer_links">
-                     <h3>Enlace rápido</h3>
-                     <ul>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Home</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Features</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Evens</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Markrting</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Blog</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Testimonial</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact</a></li>
-                     </ul>
                   </div>
                </div>
                <div class="col-lg-3 col-md-6">
                   <div class="footer_links">
                      <h3>Instagram</h3>
                      <ol>
-                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/Img/footer/1.jpg" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/Img/footer/2.jpg" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/Img/footer/3.jpg" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/Img/footer/4.jpg" alt="#" /></li>
                      </ol>
                   </div>
                </div>
                <div class="col-lg-3 col-md-6">
                   <div class="footer_links">
                      <h3>Contáctenos</h3>
-                     <form action="index.html">
+                     <form action="index.php">
                         <fieldset>
                            <div class="field">
                               <input type="text" name="name" placeholder="Tu nombre" required="" />

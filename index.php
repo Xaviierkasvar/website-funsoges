@@ -116,6 +116,12 @@
                            <img src="Vista/Img/Carrousel/img614.jpg" alt="#" />
                         </div>
                         <div class="carousel-item">
+                           <img src="Vista/Img/Carrousel/1.jpg" alt="#" />
+                        </div>
+                        <div class="carousel-item">
+                           <img src="Vista/Img/Carrousel/2.jpg" alt="#" />
+                        </div>
+                        <div class="carousel-item">
                            <img src="Vista/Img/Carrousel/img521.jpg" alt="#" />
                         </div>
                         <div class="carousel-item">
@@ -220,7 +226,7 @@
                   <div class="col-md-6">
                      <div class="full blog_cont">
                         <h4>Misión</h4>
-                        <h5>MAY 14 2019 5 READ</h5>
+                        <h5>ENE 03 2021</h5>
                         <p style="text-align: justify;">Trabajar en la Asesoría, gestión, ejecución, y manejo de proyectos comunitarios obteniendo así el bienestar común general de l a población La Fundación Social Gesarey es una entidad sin ánimo de lucro “cristiana” que trabaja por el desarrollo y sueños hacia el futuro en la primera infancia, grupos juvenil, madres cabezas de hogar y adulto mayor quienes por sus condiciones de vulnerabilidad necesitan apoyo y cuidados permanentes para lograr aumentar su amor y seguridad en la familia y en la sociedad tomados de la mano de nuestro señor Jesucristo.</p>
                      </div>
                   </div>
@@ -232,7 +238,7 @@
                   <div class="col-md-6">
                      <div class="full blog_cont">
                         <h4>Visión</h4>
-                        <h5>MAY 19 2019  5 READ</h5>
+                        <h5>ENE 03 2021</h5>
                         <p style="text-align: justify;">Para el año 2.026 ser una Fundación Social Gesarey reconocida a nivel nacional, con sedes en cada ciudad del País y Barrio de escasos recursos del mismo, brindando bienestar común a través de proyectos comunitarios
                         Funsoges será una institución reconocida en el ámbito nacional e internacional como fundación especializada en la atención de Primera infancia, Grupos Juveniles y Adulto mayor mediante la excelencia y compromiso en el servicio y bienestar espiritual, económico y social de nuestra sociedad.</p>
                      </div>
@@ -266,9 +272,11 @@
                   </div>
                   <div class="col-md-6">
                      <div class="full blog_cont">
-                        <h3 class="white_font">Where can I get some</h3>
-                        <h5 class="grey_font">March 19 2019 5 READ</h5>
-                        <p class="white_font">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined g to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator..</p>
+                        <h3 class="white_font">"Si ayudo a una persona a tener esperanza, no habrè vivido en vano."</h3>
+                        <h5 class="grey_font" style="color: green">Martin Luther King</h5>
+                        <div class="button_section full center margin_top_30">
+                        <a style="margin:0; border-radius: 30px;" href="https://biz.payulatam.com/B0e6eb7EBAAD6A5" target="_blank">DONAR</a>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -291,15 +299,13 @@
                   <div class="full comment_blog_line">
                      <div class="row">
                         <div class="col-md-1">
-                           <img src="Vista/images/c_1.png" alt="#" />
+                           <img src="Vista/images/c_1.jpg" alt="#" />
                         </div>
                         <div class="col-md-9">
                            <div class="full contact_text">
-                              <h3>Veniam</h3>
-                              <h4>Posted on Jan 10 / 2017 at 06:53 am</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
-                                 dolore magna aliquam erat volutpat.
-                              </p>
+                              <h3>mabispalomino7</h3>
+                              <h4>Publicado el 05 de enero de 2021 a las 06:53 am</h4>
+                              <p>Continuamos con este gran proyecto que sea el señor guiandonos por el camino correcto, apartando piedras de tropiezo y bendiciendo las vidas de todos nuestros amados hermanos en cristo.</p>
                            </div>
                         </div>
                         <div class="col-md-2">
@@ -310,15 +316,13 @@
                   <div class="full comment_blog_line">
                      <div class="row">
                         <div class="col-md-1">
-                           <img src="Vista/images/c_2.png" alt="#" />
+                           <img src="Vista/images/c_2.jpg" alt="#" />
                         </div>
                         <div class="col-md-9">
                            <div class="full contact_text">
-                              <h3>Jack</h3>
-                              <h4>Posted on Jan 10 / 2017 at 06:53 am</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
-                                 dolore magna aliquam erat volutpat.
-                              </p>
+                              <h3>serranoballestas</h3>
+                              <h4>Publicado el 10 de enero de 2021 a las 10:36 am</h4>
+                              <p>Saludos desde la fria bogota, los echamos mucho de menos les deseamos lo mejor y que este nuevo año sea de grandes bendiciones para sus vidas.</p>
                            </div>
                         </div>
                         <div class="col-md-2">
@@ -382,8 +386,11 @@
                      <div class="full">
                         <div class="big_blog">
                            <div id="fb-root">
-                           <div class = "fb-page" data-href = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" data-tabs = "timeline" data-width = "390" data-height = "400" data-small-header = " true " data-adapt-container-width = " true " data-hide-cover = " true " data-show-facepile = " true " > <blockquote cite = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/"class = "fb-xfbml-parse-ignore" > <a            href = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" > Fundación Social Gesarey </a> </blockquote> </div>
-                           <a class="twitter-timeline" data-width="390" data-height="400" data-theme="dark" href="https://twitter.com/TendenciasTech?ref_src=twsrc%5Etfw">Tweets by TendenciasTecnologicas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                           <div class = "fb-page" data-href = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" data-tabs = "timeline" data-width = "390" data-height = "500" data-small-header = " true " data-adapt-container-width = " true " data-hide-cover = " true " data-show-facepile = " true " > <blockquote cite = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/"class = "fb-xfbml-parse-ignore" > <a            href = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" > Fundación Social Gesarey </a> </blockquote> </div>
+                           <div class="float-right">
+                              <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                              <div class="elfsight-app-20a8ed11-f18d-409f-932e-21994596d8d7"></div>
+                           </div>
                         </div>
                         </div>
                         </div>
@@ -405,35 +412,26 @@
                      <li><span><img src="Vista/images/phone_icon.png" alt="#" /></span><span class="text_cont">324-8561<br>300-870-0118<br>300-850-5134</span></li>
                      <li><span><img src="Vista/images/mail_icon.png" alt="#" /></span><span class="text_cont">funsoges2018@gmail.com<br>funsoges_2007@live.com</span></li>
                   </ul>
-                  <ul class="social_icon">
+               </div>
+               <div class="col-lg-2 col-md-6">
+                  <div class="footer_links">
+                     <h3>Enlace rápido</h3>
+                     <ul class="social_icon">
                      <li><a href="https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                      <li><a href="funsoges2018@gmail.com"><i class="fa fa-google-plus"></i></a></li>
                   </ul>
-               </div>
-               <div class="col-lg-2 col-md-6">
-                  <div class="footer_links">
-                     <h3>Enlace rápido</h3>
-                     <ul>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Home</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Features</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Evens</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Markrting</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Blog</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Testimonial</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact</a></li>
-                     </ul>
                   </div>
                </div>
                <div class="col-lg-3 col-md-6">
                   <div class="footer_links">
                      <h3>Instagram</h3>
                      <ol>
-                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Vista/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/Img/footer/1.jpg" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/Img/footer/2.jpg" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/Img/footer/3.jpg" alt="#" /></li>
+                        <li><img class="img-responsive" src="Vista/Img/footer/4.jpg" alt="#" /></li>
                      </ol>
                   </div>
                </div>
