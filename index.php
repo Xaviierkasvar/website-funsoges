@@ -272,7 +272,7 @@
                   </div>
                   <div class="col-md-6">
                      <div class="full blog_cont">
-                        <h3 class="white_font">"Si ayudo a una persona a tener esperanza, no habrè vivido en vano."</h3>
+                        <h3 class="white_font">"Si ayudo a una persona a tener esperanza, no habré vivido en vano."</h3>
                         <h5 class="grey_font" style="color: green">Martin Luther King</h5>
                         <div class="button_section full center margin_top_30">
                         <a style="margin:0; border-radius: 30px;" href="https://biz.payulatam.com/B0e6eb7EBAAD6A5" target="_blank">DONAR</a>
