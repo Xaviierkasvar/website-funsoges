@@ -257,7 +257,7 @@
       <!-- end section -->
       <!-- section -->
       <section id="Donaciones">
-            <div class="section layout_padding dark_bg">
+         <div class="section layout_padding dark_bg">
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
@@ -268,20 +268,64 @@
                </div>
                <div class="row">
                   <div class="col-md-6">
-                     <img src="Vista/Img/Donaciones.jpg" alt="#" />
-                  </div>
-                  <div class="col-md-6">
-                     <div class="full blog_cont">
-                        <h3 class="white_font">"Si ayudo a una persona a tener esperanza, no habré vivido en vano."</h3>
-                        <h5 class="grey_font" style="color: green">Martin Luther King</h5>
-                        <div class="button_section full center margin_top_30">
-                        <a style="margin:0; border-radius: 30px;" href="https://biz.payulatam.com/B0e6eb7EBAAD6A5" target="_blank">DONAR</a>
+                     <div class="donation_card">
+                        <div class="donation_content">
+                           <h3 class="white_font">"Si ayudo a una persona a tener esperanza, no habré vivido en vano."</h3>
+                           <h5 class="grey_font" style="color: green">Martin Luther King</h5>
+                           <p class="white_font">Tu aporte hace posible nuestros proyectos comunitarios para la primera infancia, grupos juveniles, madres cabeza de hogar y adultos mayores.</p>
+                           <div class="donation_methods">
+                              <div class="donation_method active" data-method="qr">Donar con QR</div>
+                              <div class="donation_method" data-method="online">Donar Online</div>
+                              <div class="donation_method" data-method="info">Información Bancaria</div>
+                           </div>
+                           
+                           <div class="donation_details" id="qr_donation">
+                              <div class="qr_container">
+                                 <img src="Vista/images/247d7036.jpg" alt="Código QR para donaciones" class="qr_code" />
+                                 <p class="white_font">Escanea este código QR para hacer tu donación directamente desde tu app bancaria</p>
+                              </div>
+                           </div>
+                           
+                           <div class="donation_details" id="online_donation" style="display:none;">
+                              <div class="button_section full center margin_top_30">
+                                 <a style="margin:0; border-radius: 30px;" href="https://biz.payulatam.com/B0e6eb7EBAAD6A5" target="_blank">DONAR AHORA</a>
+                              </div>
+                           </div>
+                           
+                           <div class="donation_details" id="bank_info" style="display:none;">
+                              <div class="bank_info">
+                                 <p class="white_font"><strong>Cuenta Bancaria:</strong> FUNSOGES</p>
+                                 <p class="white_font"><strong>Banco:</strong> Bancolombia</p>
+                                 <p class="white_font"><strong>Tipo de cuenta:</strong> Ahorros</p>
+                                 <p class="white_font"><strong>Número:</strong> 123-456789-00</p>
+                              </div>
+                           </div>
+                        </div>
                      </div>
+                  </div>
+                  
+                  <div class="col-md-6">
+                     <div class="donation_impact">
+                        <img src="Vista/Img/Donaciones.jpg" alt="Impacto de donaciones" class="img-fluid rounded" />
+                        <div class="impact_numbers">
+                           <div class="impact_item">
+                              <h4>100+</h4>
+                              <p>Niños Beneficiados</p>
+                           </div>
+                           <div class="impact_item">
+                              <h4>50+</h4>
+                              <p>Familias Apoyadas</p>
+                           </div>
+                           <div class="impact_item">
+                              <h4>20+</h4>
+                              <p>Proyectos Activos</p>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>        
+         </div>
       </section>
       <!-- end section -->
       <!-- section -->
@@ -372,7 +416,7 @@
       <!-- end section -->
       <!-- section --> 
       <section id="Redes">
-            <div class="section layout_padding blog_blue_bg light_silver">
+         <div class="section layout_padding blog_blue_bg light_silver">
             <div class="container">
                <div class="row">
                   <div class="col-md-8 offset-md-2">
@@ -385,14 +429,24 @@
                   <div class="col-md-8 offset-md-2">
                      <div class="full">
                         <div class="big_blog">
-                           <div id="fb-root">
-                           <div class = "fb-page" data-href = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" data-tabs = "timeline" data-width = "390" data-height = "500" data-small-header = " true " data-adapt-container-width = " true " data-hide-cover = " true " data-show-facepile = " true " > <blockquote cite = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/"class = "fb-xfbml-parse-ignore" > <a            href = "https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" > Fundación Social Gesarey </a> </blockquote> </div>
+                           <div id="fb-root"></div>
+                           <div class="fb-page mt-4"
+                                 data-href="https://www.facebook.com/profile.php?id=100064621932359"
+                                 data-tabs="timeline"
+                                 data-width="390"
+                                 data-height="470"
+                                 data-small-header="true"
+                                 data-adapt-container-width="true"
+                                 data-hide-cover="true"
+                                 data-show-facepile="true">
+                              <blockquote cite="https://www.facebook.com/profile.php?id=100064621932359" class="fb-xfbml-parse-ignore">
+                                 <a href="https://www.facebook.com/profile.php?id=100064621932359">Página de Facebook</a>
+                              </blockquote>
+                           </div>
                            <div class="float-right">
                               <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                               <div class="elfsight-app-20a8ed11-f18d-409f-932e-21994596d8d7"></div>
                            </div>
-                        </div>
-                        </div>
                         </div>
                      </div>
                   </div>
@@ -408,8 +462,8 @@
                <div class="col-lg-4 col-md-6">
                   <a href="#"><img src="Vista/Img/logo_footer_1.png" alt="#" /></a>
                   <ul class="contact_information">
-                     <li><span><img src="Vista/images/location_icon.png" alt="#" /></span><span class="text_cont">Calle 46 e # 13 sur 04 Los Girasoles<br>Barranquilla-Colombia</span></li>
-                     <li><span><img src="Vista/images/phone_icon.png" alt="#" /></span><span class="text_cont">324-8561<br>300-870-0118<br>300-850-5134</span></li>
+                     <li><span><img src="Vista/images/location_icon.png" alt="#" /></span><span class="text_cont">Calle 48 e # 8 sur 37 Los Girasoles<br>Barranquilla-Colombia</span></li>
+                     <li><span><img src="Vista/images/phone_icon.png" alt="#" /></span><span class="text_cont">304-237-2690<br>316-989-1309</span></li>
                      <li><span><img src="Vista/images/mail_icon.png" alt="#" /></span><span class="text_cont">funsoges2018@gmail.com<br>funsoges_2007@live.com</span></li>
                   </ul>
                </div>
@@ -417,7 +471,7 @@
                   <div class="footer_links">
                      <h3>Enlace rápido</h3>
                      <ul class="social_icon">
-                     <li><a href="https://www.facebook.com/Fundaci%C3%B3n-Social-Gesarey-2334471413274742/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                     <li><a href="https://www.facebook.com/share/1Bh8GtuNoZ/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                      <li><a href="funsoges2018@gmail.com"><i class="fa fa-google-plus"></i></a></li>
@@ -486,3 +540,281 @@
       <div id = "fb-root" > </div> <script async diferir crossorigin = "anonymous" src = "https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce = "BhAnAilu" > </script>
    </body>
 </html>
+
+<style>
+   .donation_card {
+      background: rgba(0,0,0,0.3);
+      border-radius: 15px;
+      padding: 30px;
+      height: 100%;
+   }
+   
+   .donation_content {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+   }
+   
+   .donation_methods {
+      display: flex;
+      margin: 20px 0;
+      border-radius: 30px;
+      overflow: hidden;
+      background: rgba(0,0,0,0.2);
+   }
+   
+   .donation_method {
+      flex: 1;
+      padding: 12px 8px;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+   }
+   
+   .donation_method.active {
+      background: #28a745;
+      font-weight: bold;
+   }
+   
+   .donation_method:hover:not(.active) {
+      background: rgba(255,255,255,0.1);
+   }
+   
+   .donation_details {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+   }
+   
+   .qr_container {
+      text-align: center;
+   }
+   
+   .qr_code {
+      max-width: 180px;
+      border: 5px solid white;
+      border-radius: 10px;
+      padding: 10px;
+      background: white;
+      margin-bottom: 15px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+   }
+   
+   .qr_code:hover {
+      transform: scale(2.5);
+      box-shadow: 0 0 20px rgba(255,255,255,0.7);
+      z-index: 100;
+   }
+   
+   /* Estilos para el botón de cierre en móviles */
+   .close_button {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      background: #f44336;
+      color: white;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      z-index: 102;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+   
+   /* Evitar que el efecto hover cause problemas en dispositivos táctiles */
+   @media (hover: none) {
+      .qr_code:hover {
+         transform: none;
+         box-shadow: none;
+         z-index: 1;
+      }
+   }
+   
+   .bank_info {
+      background: rgba(0,0,0,0.2);
+      padding: 15px;
+      border-radius: 10px;
+      width: 100%;
+   }
+   
+   .bank_info p {
+      margin-bottom: 8px;
+   }
+   
+   .donation_impact {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+   }
+   
+   .impact_numbers {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      text-align: center;
+   }
+   
+   .impact_item {
+      background: rgba(255,255,255,0.9);
+      padding: 15px;
+      border-radius: 10px;
+      min-width: 100px;
+   }
+   
+   .impact_item h4 {
+      color: #28a745;
+      margin: 0;
+      font-weight: bold;
+   }
+   
+   .impact_item p {
+      margin: 5px 0 0;
+      color: #333;
+   }
+</style>
+
+<!-- JavaScript para la interactividad de los métodos de donación y el QR -->
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+      const donationMethods = document.querySelectorAll('.donation_method');
+      const donationDetails = document.querySelectorAll('.donation_details');
+      
+      // Gestionar las pestañas de donación
+      donationMethods.forEach(method => {
+         method.addEventListener('click', function() {
+            // Quitar clase activa de todos los métodos
+            donationMethods.forEach(m => m.classList.remove('active'));
+            // Agregar clase activa al método seleccionado
+            this.classList.add('active');
+            
+            // Ocultar todos los detalles
+            donationDetails.forEach(detail => detail.style.display = 'none');
+            
+            // Mostrar los detalles correspondientes al método seleccionado
+            const methodType = this.getAttribute('data-method');
+            
+            if (methodType === 'qr') {
+               document.getElementById('qr_donation').style.display = 'flex';
+            } else if (methodType === 'online') {
+               document.getElementById('online_donation').style.display = 'flex';
+            } else if (methodType === 'info') {
+               document.getElementById('bank_info').style.display = 'flex';
+            }
+         });
+      });
+      
+      // Gestionar la ampliación del QR
+      const qrCode = document.querySelector('.qr_code');
+      let overlay = null;
+      let closeMsg = null;
+      
+      if (qrCode) {
+         // Variable para controlar el estado
+         let isFullscreen = false;
+         
+         // Función para cerrar el modo pantalla completa
+         const closeFullscreen = () => {
+            if (!isFullscreen) return;
+            
+            isFullscreen = false;
+            qrCode.classList.remove('fullscreen');
+            
+            // Restaurar estilos originales
+            qrCode.style.position = '';
+            qrCode.style.top = '';
+            qrCode.style.left = '';
+            qrCode.style.transform = '';
+            qrCode.style.maxWidth = '';
+            qrCode.style.zIndex = '';
+            
+            // Eliminar el overlay y mensaje si existen
+            if (overlay && overlay.parentNode) {
+                document.body.removeChild(overlay);
+            }
+            if (closeMsg && closeMsg.parentNode) {
+                document.body.removeChild(closeMsg);
+            }
+         };
+         
+         // Manejador de clic para abrir/cerrar el QR
+         qrCode.addEventListener('click', function(e) {
+            e.stopPropagation(); // Evita que se propague al documento
+            
+            if (!isFullscreen) {
+               // Abrir modo pantalla completa
+               isFullscreen = true;
+               this.classList.add('fullscreen');
+               
+               // Crear overlay para fondo oscuro
+               overlay = document.createElement('div');
+               overlay.classList.add('qr_overlay');
+               overlay.style.position = 'fixed';
+               overlay.style.top = '0';
+               overlay.style.left = '0';
+               overlay.style.width = '100%';
+               overlay.style.height = '100%';
+               overlay.style.backgroundColor = 'rgba(0,0,0,0.8)';
+               overlay.style.zIndex = '99';
+               document.body.appendChild(overlay);
+               
+               // Colocar QR por encima del overlay
+               this.style.position = 'fixed';
+               this.style.top = '50%';
+               this.style.left = '50%';
+               this.style.transform = 'translate(-50%, -50%) scale(3)';
+               this.style.maxWidth = '80%';
+               this.style.zIndex = '100';
+               
+               // Añadir mensaje de cierre
+               closeMsg = document.createElement('div');
+               closeMsg.textContent = 'Toca en cualquier lugar para cerrar';
+               closeMsg.style.position = 'fixed';
+               closeMsg.style.bottom = '20%';
+               closeMsg.style.left = '50%';
+               closeMsg.style.transform = 'translateX(-50%)';
+               closeMsg.style.color = 'white';
+               closeMsg.style.zIndex = '101';
+               closeMsg.style.textAlign = 'center';
+               closeMsg.style.width = '90%';
+               closeMsg.style.padding = '10px';
+               closeMsg.classList.add('close_message');
+               document.body.appendChild(closeMsg);
+               
+               // Agregar manejador al overlay
+               overlay.addEventListener('click', closeFullscreen);
+               
+               // Agregar manejador al documento para asegurar que siempre se pueda cerrar
+               document.addEventListener('click', closeFullscreen);
+            } else {
+               // Cerrar modo pantalla completa
+               closeFullscreen();
+            }
+         });
+         
+         // Asegurar que se pueda cerrar en dispositivos táctiles
+         document.addEventListener('touchstart', function(e) {
+            if (isFullscreen) {
+               closeFullscreen();
+            }
+         });
+         
+         // Agregar botón de cierre explícito para móviles
+         qrCode.addEventListener('touchstart', function(e) {
+            if (isFullscreen) {
+               e.preventDefault(); // Prevenir comportamiento predeterminado del navegador
+               closeFullscreen();
+            }
+         });
+      }
+   });
+</script>
